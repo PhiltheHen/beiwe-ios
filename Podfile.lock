@@ -45,7 +45,7 @@ DEPENDENCIES:
   - Crashlytics (~> 3.4)
   - EmitterKit (~> 5.1)
   - Eureka (~> 4.2)
-  - Hakuba
+  - Hakuba (from `https://github.com/eskizyen/Hakuba.git`, branch `Swift3`)
   - IDZSwiftCommonCrypto (~> 0.9)
   - KeychainSwift (~> 8.0)
   - ObjectMapper (from `https://github.com/Hearst-DD/ObjectMapper.git`, branch `swift-4`)
@@ -59,6 +59,9 @@ DEPENDENCIES:
   - XLActionController (from `https://github.com/xmartlabs/XLActionController.git`, branch `swift4`)
 
 EXTERNAL SOURCES:
+  Hakuba:
+    :branch: Swift3
+    :git: https://github.com/eskizyen/Hakuba.git
   ObjectMapper:
     :branch: swift-4
     :git: https://github.com/Hearst-DD/ObjectMapper.git
@@ -78,6 +81,9 @@ EXTERNAL SOURCES:
     :git: https://github.com/xmartlabs/XLActionController.git
 
 CHECKOUT OPTIONS:
+  Hakuba:
+    :commit: 9d748747369671e162b4f088402eacbfa997121a
+    :git: https://github.com/eskizyen/Hakuba.git
   ObjectMapper:
     :commit: ae333e622321193e223f343eb981662bccc00b76
     :git: https://github.com/Hearst-DD/ObjectMapper.git
@@ -118,6 +124,6 @@ SPEC CHECKSUMS:
   XCGLogger: 0b43697155d41e4a1b15fc776f319c2141646b09
   XLActionController: 57fe0ce1642e2eed971b188b490762345fdbf963
 
-PODFILE CHECKSUM: 40b740e71e0495dc483e4107c035ee1d57df315a
+PODFILE CHECKSUM: 3af7eb7b525a895e4cc919b900c0e9358c3ff32a
 
 COCOAPODS: 1.3.1

@@ -31,7 +31,7 @@ class ChangePasswordViewController: FormViewController {
         // Do any additional setup after loading the view.
 
         form +++ Section(){ section in
-            if (isForgotPassword) {
+          if (self.isForgotPassword) {
                 var header = HeaderFooterView<ForgotPasswordHeaderView>(.nibFile(name: "ForgotPasswordHeaderView", bundle: nil))
                 header.onSetupView = { headerView, _ in
                     headerView.patientId.text = StudyManager.sharedInstance.currentStudy?.patientId ?? ""
